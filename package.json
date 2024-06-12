@@ -40,5 +40,16 @@
   "dependencies": {
     "electron-squirrel-startup": "^1.0.1",
     "vue": "^3.4.27"
+  },
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "makers": [
+        {
+          "name": "@electron-forge/maker-zip",
+          "icon": "/icon.png"
+        }
+      ]
+    }
   }
 }
