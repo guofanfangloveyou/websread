@@ -21,8 +21,8 @@
  *    height: 600,
  *    webPreferences: {
  *      nodeIntegration: true
- *    }
- *  });
+ *    
+ *  })
  * ```
  */
 
