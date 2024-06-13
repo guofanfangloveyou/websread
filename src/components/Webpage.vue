@@ -51,14 +51,14 @@ const webviewStartLoad = (index: Number): void => {
     ]"
     @mouseenter="handlemouseenter(hoverindex)"
   >
-    <Webview
+    <webview
       class="webitem"
       :src="url"
-      allowscripts="true"
-      allowpopups="true"
+      allowscripts
+      allowpopups
       ref="webviewRef"
       @did-start-loading="webviewStartLoad(hoverindex)"
-    ></Webview>
+    ></webview>
     <div
       class="webbottom"
       v-if="hoverindex === weblist.hoverindex ? true : false"
