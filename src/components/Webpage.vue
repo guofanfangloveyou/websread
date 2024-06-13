@@ -54,8 +54,8 @@ const webviewStartLoad = (index: Number): void => {
     <Webview
       class="webitem"
       :src="url"
-      allowscripts
-      allowpopups
+      allowscripts="true"
+      allowpopups="true"
       ref="webviewRef"
       @did-start-loading="webviewStartLoad(hoverindex)"
     ></Webview>
