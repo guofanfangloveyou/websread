@@ -10,11 +10,23 @@ import { FuseV1Options, FuseVersion } from '@electron/fuses'
 const config: ForgeConfig = {
   packagerConfig: {
     asar: true,
-    
+    osxSign: {},
+    icon: './icon',
   },
   rebuildConfig: {},
-  makers: [new MakerZIP({}, ['darwin'])],
-  // makers: [new MakerSquirrel({}), new MakerZIP({}, ['darwin']), new MakerRpm({}), new MakerDeb({})],
+  // makers: [new MakerZIP({}, ['darwin'])],
+  makers: [
+    {
+      name: '@electron-forge/maker-pkg',
+      config: {
+        keychain: './devwebsreadprofile.provisionprofile',
+      },
+    },
+    new MakerSquirrel({}),
+    new MakerZIP({}, ['darwin']),
+    new MakerRpm({}),
+    new MakerDeb({}),
+  ],
   plugins: [
     new VitePlugin({
       // `build` can specify multiple entry builds, which can be Main process, Preload scripts, Worker process, etc.

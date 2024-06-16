@@ -1,0 +1,43 @@
+[
+  { "webname": "小红书", "website": "https://www.xiaohongshu.com/explore" },
+  { "webname": "推特", "website": "https://x.com/home" },
+  { "webname": "reddit", "website": "https://www.reddit.com/" },
+  { "webname": "quora", "website": "https://www.quora.com/" },
+  { "webname": "indiehackers", "website": "https://www.indiehackers.com/" },
+  { "webname": "juejin", "website": "https://juejin.cn/" },
+  {
+    "webname": "weibo",
+    "website": "https://weibo.com/newlogin?tabtype=weibo&gid=102803&openLoginLayer=0&url=https%3A%2F%2Fweibo.com%2Fmygroups%3Fgid%3D110007832175483"
+  },
+  { "webname": "extpose", "website": "https://extpose.com/top-grossing" },
+  { "webname": "instagram", "website": "https://www.instagram.com/" },
+  { "webname": "remoteok", "website": "https://remoteok.com/" },
+  { "webname": "ycombinator", "website": "https://news.ycombinator.com/" },
+  {
+    "webname": "即刻",
+    "website": "https://h5.ruguoapp.com/jk-product-launch-event/today?backgroundDarkColor=%232A2A2A&backgroundLightColor=%23F4F4F4&displayFooter=false&displayHeader=false"
+  },
+  {
+    "webname": "qimai",
+    "website": "https://www.qimai.cn/trend/hotSearch/device/iphone/country/cn/version/ios13"
+  },
+  { "webname": "producthunt", "website": "https://www.producthunt.com/" },
+  { "webname": "appinn", "website": "https://www.appinn.com/" },
+  { "webname": "trending", "website": "https://github.com/trending" },
+  {
+    "webname": "smzdm",
+    "website": "https://post.smzdm.com/fenlei/ruanjianyingyong/"
+  },
+  { "webname": "sspai", "website": "https://sspai.com/" },
+  { "webname": "iplaysoft", "website": "https://www.iplaysoft.com/" },
+  {
+    "webname": "chromewebstore",
+    "website": "https://chromewebstore.google.com/category/extensions/make_chrome_yours/functionality?hl=zh-CN"
+  },
+  { "webname": "zhihu", "website": "https://www.zhihu.com" },
+  { "webname": "36kr", "website": "https://36kr.com/" },
+  {
+    "webname": "futunn",
+    "website": "https://news.futunn.com/main?lang=zh-cn&global_content=%7B%22promote_id%22%3A13766,%22sub_promote_id%22%3A19%7D"
+  }
+]
