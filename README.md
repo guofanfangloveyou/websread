@@ -12,5 +12,4 @@
 ![EX2](./content.png)
 ![EX3](./setting.png)
 
-未完待续..
-
+未完待续.
