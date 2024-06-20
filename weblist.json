@@ -39,5 +39,6 @@
   {
     "webname": "futunn",
     "website": "https://news.futunn.com/main?lang=zh-cn&global_content=%7B%22promote_id%22%3A13766,%22sub_promote_id%22%3A19%7D"
-  }
+  },
+  { "webname": "lizhi", "website": "https://lizhi.shop/" }
 ]
